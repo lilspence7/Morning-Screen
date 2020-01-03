@@ -5,6 +5,13 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 public class Time {
+    // 0 = Year
+    // 1 = Month
+    // 2 = Day
+    // 3 = Hour
+    // 4 = Minutes
+    // 5 = Half of day
+
     public static ArrayList<String> getTimeAndDate() {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy MM dd HH mm");
         LocalDateTime now = LocalDateTime.now();
@@ -14,9 +21,9 @@ public class Time {
         }
         if(Integer.parseInt(vals.get(3)) >= 12) {
             vals.set(3,String.valueOf(Integer.parseInt(vals.get(3))-12));
-            vals.add("PM");
+            vals.add("pm");
         } else {
-            vals.add("AM");
+            vals.add("am");
         }
         return vals;
     }

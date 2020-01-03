@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1089.0" prefWidth="1760.0" style="-fx-background-color: #001a33;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.MorningScreenController">
+   <children>
+      <Label fx:id="timeLabel" layoutX="75.0" layoutY="75.0" prefHeight="393.0" prefWidth="808.0" text="12:04" textFill="WHITE">
+         <font>
+            <Font size="300.0" />
+         </font>
+      </Label>
+      <Label fx:id="halfOfDayLabel" layoutX="779.0" layoutY="340.0" text="am" textFill="WHITE">
+         <font>
+            <Font size="81.0" />
+         </font>
+      </Label>
+      <Label fx:id="newsLabel1" layoutX="100.0" layoutY="680.0" text="Dr. Sanjay Gupta breaks down the origins of vaping crisis" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label fx:id="newsLabel2" layoutX="100.0" layoutY="740.0" text="California's cannabis industry: It's complicated" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label fx:id="newsLabel3" layoutX="100.0" layoutY="800.0" text="The vaping black market is hiding in plain sight" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label fx:id="newsLabel4" layoutX="100.0" layoutY="860.0" text="Dr. Sanjay Gupta breaks down the origins of vaping crisis" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label fx:id="newsLabel5" layoutX="100.0" layoutY="920.0" text="Dr. Sanjay Gupta breaks down the origins of vaping crisis" textFill="WHITE">
+         <font>
+            <Font size="32.0" />
+         </font></Label>
+      <Label layoutX="350.0" layoutY="520.0" text="News" textFill="WHITE">
+         <font>
+            <Font size="100.0" />
+         </font>
+      </Label>
+      <Label fx:id="verseLabel" layoutX="1022.0" layoutY="640.0" prefHeight="391.0" prefWidth="887.0" text="&quot;The Lord goes out like a mighty man, like a man of war he stirs up his zeal; he cries out, he shouts aloud, he shows himself mighty against his foes&quot;" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="verseReferenceLabel" alignment="CENTER_RIGHT" layoutX="1222.0" layoutY="940.0" prefHeight="58.0" prefWidth="656.0" text="— Isaiah 42:13 ESV" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="tempLabel" layoutX="1007.0" layoutY="128.0" text="43°" textFill="WHITE">
+         <font>
+            <Font size="250.0" />
+         </font>
+      </Label>
+      <VBox layoutX="1029.0" layoutY="434.0" prefHeight="219.0" prefWidth="364.0">
+         <children>
+            <HBox prefHeight="106.0" prefWidth="364.0" spacing="20.0">
+               <children>
+                  <Label text="Feels Like" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="feelsLikeLabel" text="76°" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="62.0" prefWidth="138.0" spacing="20.0">
+               <children>
+                  <Label text="Temps" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="tempLabelLowHigh" text="37°-50°" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox spacing="20.0">
+               <children>
+                  <Label text="Precipitation" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="precipitationLabel" text="12%" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox spacing="20.0">
+               <children>
+                  <Label text="Visiblity" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="visibilityLabel" text="12 miles" textFill="WHITE">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Label fx:id="dateLabel" layoutX="1303.0" layoutY="41.0" prefHeight="105.0" prefWidth="645.0" text="December 24, 2019" textFill="WHITE">
+         <font>
+            <Font size="72.0" />
+         </font>
+      </Label>
+      <VBox layoutX="1410.0" layoutY="188.0" prefHeight="490.0" prefWidth="379.0">
+         <children>
+            <AnchorPane prefHeight="163.0" prefWidth="515.0">
+               <children>
+                  <Label fx:id="day1Label" layoutY="27.0" text="Tomorrow 35-45" textFill="WHITE">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="10.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="day2Label" layoutY="42.0" text="Thursday 34/42" textFill="WHITE">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="210.0" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="day3Label" layoutY="43.0" text="Friday 27/36" textFill="WHITE">
+                     <font>
+                        <Font size="50.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <ImageView fx:id="day3Image" fitHeight="75.0" fitWidth="75.0" layoutX="1811.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="day2Image" fitHeight="75.0" fitWidth="75.0" layoutX="1811.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="day1Image" fitHeight="75.0" fitWidth="75.0" layoutX="1811.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="currentWeatherImage" fitHeight="106.0" fitWidth="121.0" layoutX="1072.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
